@@ -1,1 +1,18 @@
-here
+n = int(input('Please enter an integer greater than one:'))
+if n<=1:
+    print 'Your response was not great than one.'
+else:
+    import sys
+    factors = []
+    
+    for div in range(2,n/2+1):
+        while n%div==0:
+            n = n/div
+            factors.append(div)
+    
+    if n==1:
+        sys.stdout.write(str(factors.pop(0)))
+        for factor in factors:
+            sys.stdout.write('*' + str(factor))
+    else:
+        print n
