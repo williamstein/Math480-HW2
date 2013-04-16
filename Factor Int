@@ -1,6 +1,6 @@
 n = int(input('Please enter an integer greater than one:'))
 if n<=1:
-    print 'Your response was not great than one.'
+    print 'Your response was not greater than one.'
 else:
     import sys
     factors = []
