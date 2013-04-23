@@ -22,5 +22,7 @@ Please enter an integer greater than one:
 
 
 Please enter an integer greater than one:   
- 66666 <br>
-2*3*41*271
+
+
+    66666
+    2*3*41*271
